@@ -1,0 +1,25 @@
+// var stroll = [32, 60, 50,85 ,90,32 ,45, 85];
+// var newroll = [];
+// for (let i = 0; i < stroll.length; i++) {
+//     var element = stroll[i];
+//     var index = newroll.indexOf(element);
+//     if (index == -1) {
+//         newroll.push(element)
+        
+//     }
+    
+// }
+// console.log(newroll)
+
+var stroll = [32, 60, 50,85 ,90,32 ,45, 85];
+var newroll =[];
+for (let i = 0; i < stroll.length; i++) {
+    var element = stroll[i];
+    var index = newroll.indexOf(element)
+    if (index == -1) {
+        newroll.push(element)
+    }
+    
+}
+console.log(newroll)
+
