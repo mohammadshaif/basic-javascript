@@ -25,3 +25,8 @@ for (let i = 0; i < marks.length; i++) {
    
 }
 console.log(max)
+
+//es6
+var marks = [30, 36, 90, 45, 95, 60]
+var max = Math.max(...marks)
+console.log(max);
