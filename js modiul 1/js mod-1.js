@@ -32,6 +32,8 @@ var possition = morgina.indexOf(30)
 var index = morgina[1]
 morgina.push(70, 80, 90)
 morgina.pop()
+morgina.shift()//samne thelee bad
+morgina.unshift()//samne add
 morgina[0]=10
 // console.log(morgina)
 
